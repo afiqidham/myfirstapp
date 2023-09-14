@@ -4,6 +4,7 @@ import './App.css';
 import Clock from './components/Clock';
 import Blog from './components/Blog';
 import Post from './components/Post';
+import Form from './components/Form';
 
 function App() {
   const [flag, setFlag] = useState(true);
@@ -83,7 +84,8 @@ function App() {
     {/* <h1>Time Now:</h1>
     <h2>{flag ? <Clock/> : "No Clock Showed"}</h2>
     <button onClick={() => setFlag(!flag)}>{button}</button> */}
-    <Blog posts = {posts}/>
+    {/* <Blog posts = {posts}/> */}
+    <Form/>
     </div>;
 
 }
