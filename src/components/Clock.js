@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 
 function Clock() {
     const [time, setTime] = useState(new Date().toString())
-    const [flag, setFlag] = useState(true);
+   
 
     useEffect(() => {
         console.log("Component mounted / updated");
